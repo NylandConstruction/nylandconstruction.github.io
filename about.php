@@ -51,7 +51,7 @@
 	<div id="content">
 		
 		<div id="left">
-		<h1>About</h1>
+		<h1>About Nyland Construction</h1>
 		<h2>Nyland Construction provide a wide range of services for our clients, from basic building repairs right through to completion of large projects.</h2>
 		<h2>Building Refurbishments</h2>
 		<p>Whether you have just moved into a new property, or want to have work done on your existing house to increase the value before you sell it, Nyland Construction of Warrington have a vast array of skills at your disposal.</p>

@@ -51,7 +51,7 @@
 	<div id="content">
 		
 		<div id="left">
-			<h1>History</h1>
+			<h1>Our History</h1>
 			<h2>1982-1990</h2>
 			<ul>
 			  <li> Contracted for the installation of suspended ceilings on large government contracts
