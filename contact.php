@@ -87,7 +87,7 @@
 				<tr><td>Email</td><td><input name="Email" type="text" id="Email" class="input" /></td></tr>
 				<tr><td>Telephone</td><td><input name="Telephone" type="text" id="Telephone" class="input" /></td></tr>
 				<tr><td>Message</td><td><textarea name="Message" id="Message" class="input"></textarea></td></tr>
-				<tr><td>1 + 1 =</td><td><input name="Question" type="text" id="Question" class="input" value="Answer to prove you're human!" /></td></tr>
+				<tr><td>1 + 1 =</td><td><input name="Question" type="text" id="Question" class="input" value="Please answer the simple mathamatic question to prove you're human!" /></td></tr>
 				<tr><td>&nbsp;</td><td><input type="submit" name="Submit" id="submit" value="Submit" /></td></tr>
 				</table>
 				</form>
