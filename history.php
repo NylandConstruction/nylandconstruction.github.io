@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Nyland Construction | Building Builders Cheshire</title>
+	<meta name="Description" content="Nyland Construct are a builders in Cheshire. Call today for a quick quotation." />
+	<link rel="icon" href="assets/icon.ico" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+
+
+</head>
+<body id="page">
+<div id="wrapper">
+	
+	
+	
+	<div id="header">
+	
+		<div id="hleft">
+		<a href="/"><img src="assets/logo.gif" alt="" /></a>
+		</div>
+		
+		<div id="hright">
+		<img src="assets/telephone.gif" alt="Telephone 01925 604354" /><br />
+		<ul id="menu" class="">
+			<li><a href="/">Home</a></li>
+			<li><a href="about.php">About</a></li>
+			<li><a href="gallery.php">Gallery</a></li>
+			<li><a href="history.php" class="active">History</a></li>
+			<li><a href="contact.php">Contact</a></li>
+		</ul>
+		</div>
+		
+	</div>
+	
+	
+	
+	
+	<div id="intro">
+	<img src="assets/history.jpg" alt="Bespoke Building &amp; Joinery" />
+	</div>
+	<img src="assets/shadow.jpg" alt="" />
+
+	
+	
+	
+	<div id="content">
+		
+		<div id="left">
+			<h1>History</h1>
+			<h2>1982-1990</h2>
+			<ul>
+			  <li> Contracted for the installation of suspended ceilings on large government contracts
+			    (e.g. Queen Elizabeth's Crown Courts Liverpool, St. John's Precinct Liverpool, The Strand Precinct Bootle.)</li>
+		      <li> Shop fitting throughout UK for Boots The Chemists.</li>
+		  </ul>
+		  <h2>1990-2000</h2>
+			<ul>
+			  <li> Local building work, e.g. house builds, house extensions, kitchens, bathrooms, etc.</li>
+		      <li> Sub-contract building work for C.S.E Storage Equipment, Galliford Try and Kingfisher Swimming Pools.</li>
+		  </ul>
+		  <h2>2000-2011</h2>
+			<ul>
+			  <li> Property developments</li>
+		      <li> House refurbishments</li>
+		      <li> Extensions</li>
+		      <li> Kitchens</li>
+		      <li> Bathrooms</li>
+		  </ul>
+	  </div>
+		
+		<div id="right">
+			<img src="assets/fmb.gif" alt="FMB, NICEIC, Gas Safe" />
+		</div>
+		
+	</div>
+	<img src="assets/shadow.jpg" alt="" />
+	
+	
+	
+	<div id="footer">
+	&copy;<?php echo date("Y"); ?> <a href="/"title="Building Contractors Warrington">Nyland Construction</a> | 
+	<a href="http://www.slapaddicts.co.uk/" title="Website Design Manchester">Site by SA</a> | 
+	<a href="#">Top of Page</a>
+	</div>
+	
+	
+	
+</div>
+</body>
+</html>
