@@ -76,7 +76,7 @@
 			
 			?>
 			
-				<h2>You can either contact us at the details below or use our contact form:</h2>
+				<h2>You can either contact us using the details below or you can use our contact form:</h2>
 				
 				<form id="form" name="form" method="post" action="contact.php">
 				<table width="100%" border="0" cellspacing="0" cellpadding="5">
