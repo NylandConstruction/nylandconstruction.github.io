@@ -5,7 +5,7 @@
 
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Nyland Construction | Building Builders Cheshire</title>
+	<title>Nyland Construction | Construction in Appleton, Stretton and Walton</title>
 	<meta name="Description" content="Nyland Construct are a builders in Cheshire. Call today for a quick quotation." />
 	<link rel="icon" href="assets/icon.ico" />
 	<link rel="stylesheet" type="text/css" href="style.css" />

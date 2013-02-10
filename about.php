@@ -5,7 +5,7 @@
 
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Nyland Construction | Building Contractors Cheshire, Warrington</title>
+	<title>Nyland Construction | Building contractors covering Cheshire</title>
 	<meta name="Description" content="Nyland Construct are a building contractor in Cheshire. Call today for a quick quotation." />
 	<link rel="icon" href="assets/icon.ico" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
