@@ -5,8 +5,8 @@
 
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Nyland Construction | Builders in Warrington</title>
-	<meta name="Description" content="Nyland Construct are a builders in Warrington. Call today for a quick quotation." />
+	<title>Our Portfolio Gallery | Construction in Appleton, Stretton and Walton | Nyland Construction</title>
+	<meta name="description" content="View our portfolio of previous projects, completed on time and on budget by Nyland Construction." />
 	<link rel="icon" href="assets/icon.ico" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	
@@ -56,7 +56,7 @@
 	<div id="content">
 		
 		<div id="left">
-			<h1>Gallery</h1>
+			<h1>Our Portfolio Gallery</h1>
 			<h2>Please select an image to view:</h2>
 			<?php
 			$path = "gallery/";

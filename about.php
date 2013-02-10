@@ -5,8 +5,8 @@
 
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Nyland Construction | Building contractors covering Cheshire</title>
-	<meta name="Description" content="Nyland Construct are a building contractor in Cheshire. Call today for a quick quotation." />
+	<title>About Us | Building contractors covering Cheshire | Nyland Construction</title>
+	<meta name="description" content="All about Nyland Construction and what we do." />
 	<link rel="icon" href="assets/icon.ico" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
 

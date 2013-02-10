@@ -5,8 +5,8 @@
 
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Nyland Construction | Construction in Appleton, Stretton and Walton</title>
-	<meta name="Description" content="Nyland Construct are a builders in Cheshire. Call today for a quick quotation." />
+	<title>Our Company History | Home improvement in Stockton Heath, Frodsham and Chester | Nyland Construction</title>
+	<meta name="description" content="Our company history, showing 30 years of experience providing building services in Appleton, Stretton and Walton." />
 	<link rel="icon" href="assets/icon.ico" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
 

@@ -5,8 +5,8 @@
 
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Nyland Construction | Building contractor in Knutsford, Hale and Altrincham</title>
-	<meta name="Description" content="Nyland Construct are a building construction company in Warrington and Cheshire. Call today for a quick quotation." />
+	<title>Contact Us | Building contractor in Knutsford, Hale and Altrincham | Nyland Construction</title>
+	<meta name="description" content="Please feel free to contact us if you would like to discuss your home improvment plans." />
 	<link rel="icon" href="assets/icon.ico" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
 

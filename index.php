@@ -6,7 +6,7 @@
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Nyland Construction | Building contractor in Warrington, Stockton Heath, Grappenhall and Appleton</title>
-	<meta name="Description" content="Nyland Construct are building contractors in Cheshire. Call today for a free quotation!" />
+	<meta name="description" content="Nyland Construction are building contractors based in Warrington. Call today for a free quotation!" />
 	<link rel="icon" href="assets/icon.ico" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
 
