@@ -83,10 +83,10 @@
 				<form id="form" name="form" method="post" action="contact.php">
 				<table width="100%" border="0" cellspacing="0" cellpadding="5">
 				<tr><td>Name</td><td><input name="Name" type="text" id="Name" class="input" /></td></tr>
-				<tr><td>Address</td><td><textarea name="Address" id="Address" class="input"></textarea></td></tr>
+				<tr><td>Address</td><td><textarea name="Address" id="Address" class="input" rows="6"></textarea></td></tr>
 				<tr><td>Email</td><td><input name="Email" type="text" id="Email" class="input" /></td></tr>
 				<tr><td>Telephone</td><td><input name="Telephone" type="text" id="Telephone" class="input" /></td></tr>
-				<tr><td>Message</td><td><textarea name="Message" id="Message" class="input"></textarea></td></tr>
+				<tr><td>Message</td><td><textarea name="Message" id="Message" class="input" rows="10"></textarea></td></tr>
 				<tr><td>1 + 1 =</td><td><input name="Question" type="text" id="Question" class="input" value="Please answer the question to prove you're human!" /></td></tr>
 				<tr><td>&nbsp;</td><td><input type="submit" name="Submit" id="submit" value="Submit" /></td></tr>
 				</table>
