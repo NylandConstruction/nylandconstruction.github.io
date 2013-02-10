@@ -71,7 +71,7 @@
 					echo "<p>A member of our sales team will be in touch with you as soon as possible.</p>";
 				} else {
 					echo "<h2>Sorry, please go back and answer the security question at the bottom of the form.</h2>";
-					echo "<a href="javascript:history.go(-1)">Click here to try again.</a>";
+					echo "<a href='javascript:history.go(-1)'>Click here to try again.</a>";
 				}
 			
 			} else {
