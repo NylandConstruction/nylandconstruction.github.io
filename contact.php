@@ -60,16 +60,17 @@
 			
 				if ($_POST['Question'] == "2") {
 					$headers = "From: noreply@nylandconstruction.co.uk\r\n" . "X-Mailer: php";
-					$to = "enquiries@nylandconstruction.co.uk";
-					//$to = "leon@slapaddicts.co.uk";
-					$subject = "Nyland Construction Website Enquiry";
+					//$to = "enquiries@nylandconstruction.co.uk";
+					$to = "joe@emerl.co.uk";
+					$subject = "You have a new Nyland Construction website enquiry!";
 					foreach ($_REQUEST as $key => $val) {
 					$body .= $key . " : " . $val . "\r\n";
 					}
 					mail($to, $subject, $body, $headers);
 					echo "<h2>Thank you, your message has been sent.</h2>";
+					echo "<p>A member of our sales team will be in touch with you as soon as possible.</p>";
 				} else {
-					echo "<h2>Sorry, please go back and answer the question.</h2>";
+					echo "<h2>Sorry, please go back and answer the security question at the bottom of the form.</h2>";
 				}
 			
 			} else {
