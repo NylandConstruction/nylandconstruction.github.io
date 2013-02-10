@@ -85,8 +85,8 @@
 	
 	
 	<div id="footer">
-	&copy;<?php echo date("Y"); ?> <a href="/"title="Building Contractors Warrington">Nyland Construction</a> | 
-	<a href="http://www.slapaddicts.co.uk/" title="Website Design Manchester">Site by SA</a> | 
+	&copy;<?php echo date("Y"); ?> <a href="/"title="Nyland Construction">Nyland Construction</a> | 
+	<a href="http://www.emerl.co.uk/" title="eMerl Web Design and Hosting">Site powered by eMerl</a> | 
 	<a href="#">Top of Page</a>
 	</div>
 	
