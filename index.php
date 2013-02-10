@@ -5,8 +5,8 @@
 
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Nyland Construction | Building Contractors Warrington, Stockton Heath, Grappenhall, Appleton</title>
-	<meta name="Description" content="Nyland Construct are a building contractor in Warrington. Call today for a quick quotation." />
+	<title>Nyland Construction | Building contractor in Warrington, Stockton Heath, Grappenhall and Appleton</title>
+	<meta name="Description" content="Nyland Construct are building contractors in Cheshire. Call today for a free quotation!" />
 	<link rel="icon" href="assets/icon.ico" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
 
@@ -54,10 +54,10 @@
 	<div id="content">
 		
 		<div id="left">
-			<h1>Welcome to Nyland Construction</h1>
+			<h1>Welcome to Nyland Construction!</h1>
 			<h2>Warrington based building company Nyland Construction has been in the construction business, both commercial and domestic, for over 30 years. With building being the core part of our company we have established an excellent reputation in Warrington and the surrounding areas.</h2>
-		  <p>Nyland Construction can transform your project from plan to completion - on time and within budget. As one of Warrington most favored building companies we are proud to receive most of our new contracts by recommendations from previous, satisfied clients. We cover a wide range of building services in Warrington and Cheshire to suite your needs.</p>
-			<p>Nyland Construction only employ time-served tradesmen backed by their relevant safety organisations; N.I.C.E.I.C. (Electrical); Gas Safe (Gas and Plumbing). We have full public liability insurance, our work is fully guaranteed and finished to extremely high standards with many satisfied customers. Nyland Construction is proud to carry the Federation of Master Builders Certification. References are available. Call us today for a quick quotation.</p>
+		    <p>Nyland Construction can transform your project from plan to completion - on time and within budget. As one of Warrington most favored building companies, we are proud to receive most of our new contracts by recommendations from previous, satisfied clients. We cover a wide range of building services in Warrington and Cheshire to suite your needs.</p>
+			<p>Nyland Construction only employ time-served tradesmen backed by their relevant safety organisations; N.I.C.E.I.C. (Electrical); Gas Safe (Gas and Plumbing). We have full public liability insurance, our work is fully guaranteed and finished to extremely high standards with many satisfied customers. Nyland Construction is proud to carry the Federation of Master Builders Certification. References are available. Call us today for a free quotation!</p>
 		</div>
 		
 		<div id="right">
