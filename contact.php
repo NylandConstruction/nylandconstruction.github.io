@@ -73,8 +73,7 @@
 			
 				if ($_POST['Question'] == "2") {
 					$headers = "From: noreply@nylandconstruction.co.uk\r\n" . "X-Mailer: php";
-					//$to = "enquiries@nylandconstruction.co.uk";
-					$to = "joe@emerl.co.uk";
+					$to = "enquiries@nylandconstruction.co.uk";
 					$subject = "You have a new Nyland Construction website enquiry!";
 					foreach ($_REQUEST as $key => $val) {
 					$body .= $key . " : " . $val . "\r\n";
