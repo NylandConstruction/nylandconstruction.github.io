@@ -5,7 +5,7 @@
 
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Contact Us | Building contractor in Knutsford, Hale and Altrincham | Nyland Construction</title>
+	<title>Contact Us | Builder in Knutsford, Hale and Altrincham | Nyland Construction</title>
 	<meta name="description" content="Please feel free to contact us if you would like to discuss your home improvment plans." />
 	<link rel="icon" href="assets/icon.ico" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
@@ -28,15 +28,15 @@
 </head>
 <body id="page">
 <div id="wrapper">
-	
-	
-	
+
+
+
 	<div id="header">
-	
+
 		<div id="hleft">
 		<a href="/"><img src="assets/logo.gif" alt="" /></a>
 		</div>
-		
+
 		<div id="hright">
 		<img src="assets/telephone.gif" alt="Telephone 01925 604354" /><br />
 		<ul id="menu" class="">
@@ -47,30 +47,30 @@
 			<li><a href="contact.php" class="active">Contact</a></li>
 		</ul>
 		</div>
-		
+
 	</div>
-	
-	
-	
-	
+
+
+
+
 	<div id="intro">
 	<img src="assets/contact.jpg" alt="Bespoke Building &amp; Joinery" />
 	</div>
 	<img src="assets/shadow.jpg" alt="" />
 
-	
-	
-	
+
+
+
 	<div id="content">
-		
+
 		<div id="left">
-		
+
 			<h1>Contact Us</h1>
-			
-			<?php 
-			
+
+			<?php
+
 			if (isset($_POST['Submit'])) {
-			
+
 				if ($_POST['Question'] == "2") {
 					$headers = "From: noreply@nylandconstruction.co.uk\r\n" . "X-Mailer: php";
 					$to = "enquiries@nylandconstruction.co.uk";
@@ -85,13 +85,13 @@
 					echo "<h2>Sorry, please go back and answer the security question at the bottom of the form.</h2>";
 					echo "<a href='javascript:history.go(-1)'>Click here to try again.</a>";
 				}
-			
+
 			} else {
-			
+
 			?>
-			
+
 				<h2>You can either contact us using the details below or you can use our contact form:</h2>
-				
+
 				<form id="form" name="form" method="post" action="contact.php">
 				<table width="100%" border="0" cellspacing="0" cellpadding="5">
 				<tr><td>Name</td><td><input name="Name" type="text" id="Name" class="input" /></td></tr>
@@ -103,41 +103,41 @@
 				<tr><td>&nbsp;</td><td><input type="submit" name="Submit" id="submit" value="Submit" /></td></tr>
 				</table>
 				</form>
-			  
+
 				<p><strong>Nyland Construction</strong><br />
 				5 Hazelwood Mews<br />
 				Grappenhall<br />
 				Warrington<br />
 				Cheshire<br />
 				WA4 2YG</p>
-				
+
 				<p><strong>Telephone</strong>: 01925 604354<br />
 				<strong>Fax</strong>: 01925 604354<br />
 				<strong>Mobile</strong>: 07929 888 959</p>
-				
+
 		  <p><a href="mailto:enquiries@nylandconstruction.co.uk">enquiries@nylandconstruction.co.uk</a></p>
-			
+
 			<?php } ?>
-            
+
 		</div>
-		
+
 		<div id="right">
 		<img src="assets/fmb.gif" alt="FMB, NICEIC, Gas Safe" />
 		</div>
-		
+
 	</div>
 	<img src="assets/shadow.jpg" alt="" />
-	
-	
-	
+
+
+
 	<div id="footer">
-	<a href="/"title="Nyland Construction">&copy;<?php echo date("Y"); ?> Nyland Construction</a> | 
-	<a href="http://www.emerl.co.uk/" title="eMerl Web Design and Hosting">Site powered by eMerl</a> | 
+	<a href="/"title="Nyland Construction">&copy;<?php echo date("Y"); ?> Nyland Construction</a> |
+	<a href="http://www.emerl.co.uk/" title="eMerl Web Design and Hosting">Site powered by eMerl</a> |
 	<a href="#">Top of Page</a>
 	</div>
-	
-	
-	
+
+
+
 </div>
 </body>
 </html>

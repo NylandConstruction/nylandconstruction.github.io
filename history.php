@@ -6,7 +6,7 @@
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Our Company History | Home improvement in Stockton Heath, Frodsham and Chester | Nyland Construction</title>
-	<meta name="description" content="Our company history, showing 30 years of experience providing building services in Appleton, Stretton and Walton." />
+	<meta name="description" content="Our company history, showing 30 years of experience providing construction services in Appleton, Stretton and Walton." />
 	<link rel="icon" href="assets/icon.ico" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
 
@@ -28,15 +28,15 @@
 </head>
 <body id="page">
 <div id="wrapper">
-	
-	
-	
+
+
+
 	<div id="header">
-	
+
 		<div id="hleft">
 		<a href="/"><img src="assets/logo.gif" alt="" /></a>
 		</div>
-		
+
 		<div id="hright">
 		<img src="assets/telephone.gif" alt="Telephone 01925 604354" /><br />
 		<ul id="menu" class="">
@@ -47,22 +47,22 @@
 			<li><a href="contact.php">Contact</a></li>
 		</ul>
 		</div>
-		
+
 	</div>
-	
-	
-	
-	
+
+
+
+
 	<div id="intro">
 	<img src="assets/history.jpg" alt="Bespoke Building &amp; Joinery" />
 	</div>
 	<img src="assets/shadow.jpg" alt="" />
 
-	
-	
-	
+
+
+
 	<div id="content">
-		
+
 		<div id="left">
 			<h1>Our History</h1>
 			<h2>1982-1990</h2>
@@ -85,24 +85,24 @@
 		      <li> Bathrooms</li>
 		  </ul>
 	  </div>
-		
+
 		<div id="right">
 			<img src="assets/fmb.gif" alt="FMB, NICEIC, Gas Safe" />
 		</div>
-		
+
 	</div>
 	<img src="assets/shadow.jpg" alt="" />
-	
-	
-	
+
+
+
 	<div id="footer">
-	<a href="/"title="Nyland Construction">&copy;<?php echo date("Y"); ?> Nyland Construction</a> | 
-	<a href="http://www.emerl.co.uk/" title="eMerl Web Design and Hosting">Site powered by eMerl</a> | 
+	<a href="/"title="Nyland Construction">&copy;<?php echo date("Y"); ?> Nyland Construction</a> |
+	<a href="http://www.emerl.co.uk/" title="eMerl Web Design and Hosting">Site powered by eMerl</a> |
 	<a href="#">Top of Page</a>
 	</div>
-	
-	
-	
+
+
+
 </div>
 </body>
 </html>

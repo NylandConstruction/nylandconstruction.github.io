@@ -5,37 +5,37 @@
 
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>About Us | Building contractors covering Cheshire | Nyland Construction</title>
+	<title>About Us | Refurbishment in Cheshire | Nyland Construction</title>
 	<meta name="description" content="All about Nyland Construction and what we do." />
 	<link rel="icon" href="assets/icon.ico" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
 
 	<script type="text/javascript">
-	
+
 	  var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-38684067-1']);
 	  _gaq.push(['_trackPageview']);
-	
+
 	  (function() {
 	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
-	
+
 	</script>
 
 </head>
 <body id="page">
 <div id="wrapper">
-	
-	
-	
+
+
+
 	<div id="header">
-	
+
 		<div id="hleft">
 		<a href="/"><img src="assets/logo.gif" alt="" /></a>
 		</div>
-		
+
 		<div id="hright">
 		<img src="assets/telephone.gif" alt="Telephone 01925 604354" /><br />
 		<ul id="menu" class="">
@@ -46,22 +46,22 @@
 			<li><a href="contact.php">Contact</a></li>
 		</ul>
 		</div>
-		
+
 	</div>
-	
-	
-	
-	
+
+
+
+
 	<div id="intro">
 	<img src="assets/about.jpg" alt="Bespoke Building &amp; Joinery" />
 	</div>
 	<img src="assets/shadow.jpg" alt="" />
 
-	
-	
-	
+
+
+
 	<div id="content">
-		
+
 		<div id="left">
 		<h1>About Nyland Construction</h1>
 		<h2>Nyland Construction provide a wide range of services for our clients, from basic building repairs right through to completion of large projects.</h2>
@@ -80,24 +80,24 @@
 		<h2>Windows &amp; Door Frames</h2>
 		<p>Whether you are upgrading your original frames or restoring your home to its former glory, traditional wood or PVC windows and doors will add value to your home. Our bespoke design services can recreate an existing design to maintain a homes traditional look and feel. We can also offer a wide range of PVC Doors and windows in many colours.</p>
 		</div>
-		
+
 		<div id="right">
 			<img src="assets/fmb.gif" alt="FMB, NICEIC, Gas Safe" />
 		</div>
-		
+
 	</div>
 	<img src="assets/shadow.jpg" alt="" />
-	
-	
-	
+
+
+
 	<div id="footer">
-	<a href="/"title="Nyland Construction">&copy;<?php echo date("Y"); ?> Nyland Construction</a> | 
-	<a href="http://www.emerl.co.uk/" title="eMerl Web Design and Hosting">Site powered by eMerl</a> | 
+	<a href="/"title="Nyland Construction">&copy;<?php echo date("Y"); ?> Nyland Construction</a> |
+	<a href="http://www.emerl.co.uk/" title="eMerl Web Design and Hosting">Site powered by eMerl</a> |
 	<a href="#">Top of Page</a>
 	</div>
-	
-	
-	
+
+
+
 </div>
 </body>
 </html>
