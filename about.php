@@ -91,8 +91,8 @@
 
 
 	<div id="footer">
-	<a href="/"title="Nyland Construction">&copy;<?php echo date("Y"); ?> Nyland Construction</a> |
-	<a href="http://www.emerl.co.uk/" title="eMerl Web Design and Hosting">Site powered by eMerl</a> |
+	&copy;<?php echo date("Y"); ?> <a href="/"title="Nyland Construction">Nyland Construction</a> |
+	Site powered by <a href="http://www.emerl.co.uk/" title="Site powered by eMerl">eMerl</a> |
 	<a href="#">Top of Page</a>
 	</div>
 
