@@ -38,7 +38,7 @@
 		</div>
 
 		<div id="hright">
-		<img src="assets/telephone.gif" alt="Telephone 01925 604354" /><br />
+		<a href="tel:01925604354"><img src="assets/telephone.gif" alt="Telephone 01925 604354" /></a><br />
 		<ul id="menu" class="">
 			<li><a href="/">Home</a></li>
 			<li><a href="about.php">About</a></li>
