@@ -28,6 +28,7 @@ ul#menu li a.active	{ color:#922a8e; }
 #content			{ background:#eeedef url(assets/content.gif) repeat-x; padding:50px; overflow:hidden; }
 #left				{ float:left; width:690px; margin:0 50px 0 0; }
 #right				{ float:left; width:100px; margin:0 0 0 0; }
+#social				{ float:left; padding-top:10px; }
 
 .gallery			{ width:140px; height:140px; float:left; background:#fff; margin:0 10px 10px 0; border:10px solid #fff; }
 .gallery img		{ max-width:140px; max-height:140px; }

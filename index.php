@@ -9,20 +9,22 @@
 	<meta name="description" content="Nyland Construction are building contractors based in Warrington. Call today for a free quotation!" />
 	<link rel="icon" href="assets/icon.ico" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript">var switchTo5x=true;</script>
+	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">stLight.options({publisher: "f6cd0b32-65f2-4a00-b9c6-6e410baf36b7", doNotHash: false, doNotCopy: false, hashAddressBar: false,});</script>
+	<script type="text/javascript">
 
-        <script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-38684067-1']);
+	  _gaq.push(['_trackPageview']);
 
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-38684067-1']);
-          _gaq.push(['_trackPageview']);
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
 
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-
-        </script>
+	</script>
 
 
 </head>
@@ -38,14 +40,15 @@
 		</div>
 
 		<div id="hright">
-		<a href="tel:01925604354"><img src="assets/telephone.gif" alt="Telephone 01925 604354" /></a><br />
-		<ul id="menu" class="">
-			<li><a href="/" class="active">Home</a></li>
-			<li><a href="about.php">About</a></li>
-			<li><a href="gallery.php">Gallery</a></li>
-			<li><a href="history.php">History</a></li>
-			<li><a href="contact.php">Contact</a></li>
-		</ul>
+			<a href="tel:01925604354"><img src="assets/telephone.gif" alt="Telephone 01925 604354" /></a>
+			<ul id="menu" class="">
+				<li><a href="/" class="active">Home</a></li>
+				<li><a href="about.php">About</a></li>
+				<li><a href="gallery.php">Gallery</a></li>
+				<li><a href="history.php">History</a></li>
+				<li><a href="contact.php">Contact</a></li>
+			</ul>
+
 		</div>
 
 	</div>
@@ -71,6 +74,12 @@
 			<h2>Warrington based builders; Nyland Construction have been in the construction business, both commercial and domestic, for over 30 years. With building being the core part of our company we have established an excellent reputation in Warrington and the surrounding areas.</h2>
 		    <p>Nyland Construction can transform your project from plan to completion - on time and within budget. As one of Warrington most favored building companies, we are proud to receive most of our new contracts by recommendations from previous, satisfied clients. We cover a wide range of building services in Warrington and Cheshire to suite your needs.</p>
 			<p>Nyland Construction only employ time-served tradesmen backed by their relevant safety organisations; N.I.C.E.I.C. (Electrical); Gas Safe (Gas and Plumbing). We have full public liability insurance, our work is fully guaranteed and finished to extremely high standards with many satisfied customers. Nyland Construction is proud to carry the Federation of Master Builders Certification. References are available. Call us today for a free quotation!</p>
+			<div id="social">
+				<span class='st_fblike_vcount' displayText='Facebook Like'></span>
+				<span class='st_twitterfollow_vcount' displayText='Twitter Follow' st_username='NylandConstruct'></span>
+				<span class='st_plusone_vcount' displayText='Google +1'></span>
+				<span class='st_email_vcount' displayText='Email'></span>
+			</div>
 		</div>
 
 		<div id="right">

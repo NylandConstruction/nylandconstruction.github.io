@@ -9,7 +9,9 @@
 	<meta name="description" content="All about Nyland Construction and what we do." />
 	<link rel="icon" href="assets/icon.ico" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
-
+	<script type="text/javascript">var switchTo5x=true;</script>
+	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">stLight.options({publisher: "f6cd0b32-65f2-4a00-b9c6-6e410baf36b7", doNotHash: false, doNotCopy: false, hashAddressBar: false,});</script>
 	<script type="text/javascript">
 
 	  var _gaq = _gaq || [];
@@ -79,6 +81,13 @@
 		<p>Warrington based Builders Nyland Construction offer a complete project management service from sourcing to installation—plumbing, wiring, tiling and decoration by its teams of time served installers. With over 30 years experience we are proud of our hard won reputation for the quality of our installation expertise. We care passionately about our business and go to all necessary lengths to ensure the suitability and quality of the products we install and the methods we employ.</p>
 		<h2>Windows &amp; Door Frames</h2>
 		<p>Whether you are upgrading your original frames or restoring your home to its former glory, traditional wood or PVC windows and doors will add value to your home. Our bespoke design services can recreate an existing design to maintain a homes traditional look and feel. We can also offer a wide range of PVC Doors and windows in many colours.</p>
+		<div id="social">
+			<span class='st_fblike_vcount' displayText='Facebook Like'></span>
+			<span class='st_twitterfollow_vcount' displayText='Twitter Follow' st_username='NylandConstruct'></span>
+			<span class='st_plusone_vcount' displayText='Google +1'></span>
+			<span class='st_email_vcount' displayText='Email'></span>
+		</div>
+
 		</div>
 
 		<div id="right">
