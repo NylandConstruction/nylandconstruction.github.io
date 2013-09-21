@@ -82,10 +82,10 @@
 		<h2>Windows &amp; Door Frames</h2>
 		<p>Whether you are upgrading your original frames or restoring your home to its former glory, traditional wood or PVC windows and doors will add value to your home. Our bespoke design services can recreate an existing design to maintain a homes traditional look and feel. We can also offer a wide range of PVC Doors and windows in many colours.</p>
 		<div id="social">
-			<span class='st_fblike_vcount' displayText='Facebook Like'></span>
-			<span class='st_twitterfollow_vcount' displayText='Twitter Follow' st_username='NylandConstruct'></span>
-			<span class='st_plusone_vcount' displayText='Google +1'></span>
-			<span class='st_email_vcount' displayText='Email'></span>
+			<span class="st_twitterfollow_vcount" displayText="Twitter Follow" st_username="NylandConstruct"></span>
+			<span class="st_fblike_vcount" displayText="Facebook Like" st_url="http://www.facebook.com/NylandConstruct"></span>
+			<span class="st_plusone_vcount" displayText="Google +1" st_url="https://plus.google.com/117453183467690631137"></span>
+			<span class="st_email_vcount" displayText="Email"></span>
 		</div>
 
 		</div>
