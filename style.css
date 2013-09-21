@@ -40,3 +40,31 @@ form				{ float:right; background:#4a4557; color:#fff; padding:20px;  }
 #footer a			{ color:#fff; font:normal 12px/20px Arial, sans-serif;}
 #footer a:hover		{ text-decoration:underline; }
 
+img.fmb, img.niceic, img.gassafe, img.velux{
+	background: url(assets/partner_logos.png) no-repeat;
+	padding-bottom:10px;
+}
+
+img.fmb{
+	background-position: 0 0;
+	width: 100px;
+	height: 149px;
+}
+
+img.niceic{
+	background-position: 0 -159px ;
+	width: 100px;
+	height: 62px;
+}
+
+img.gassafe{
+	background-position: -1px -229px ;
+	width: 100px;
+	height: 110px;
+}
+
+img.velux{
+	background-position: 0 -366px ;
+	width: 100px;
+	height: 33px;
+}

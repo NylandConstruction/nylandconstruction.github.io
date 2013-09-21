@@ -99,7 +99,10 @@
 		</div>
 
 		<div id="right">
-			<img src="assets/fmb.gif" alt="FMB, NICEIC, Gas Safe" />
+			<a href="http://www.fmb.org.uk/" target="_blank"><img class="fmb" src="assets/img_trans.gif" alt="Federation of Master Builders" /></a>
+			<a href="http://www.niceic.com/" target="_blank"><img class="niceic" src="assets/img_trans.gif" alt="NIC EIC" /></a>
+			<a href="http://www.gassaferegister.co.uk/" target="_blank"><img class="gassafe" src="assets/img_trans.gif" alt="Gas Safe" /></a>
+			<a href="http://www.velux.co.uk/" target="_blank"><img class="velux" src="assets/img_trans.gif" alt="Velux" /></a>
 		</div>
 
 	</div>
