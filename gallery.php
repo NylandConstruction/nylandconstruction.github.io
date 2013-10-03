@@ -7,9 +7,18 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Our Portfolio Gallery | Construction in Appleton, Stretton and Walton | Nyland Construction</title>
 	<meta name="description" content="View our portfolio of previous projects, completed on time and on budget by Nyland Construction." />
-	<link rel="icon" href="assets/icon.ico" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57x57.png">
+	<link rel="icon" sizes="16x16" type="image/png" href="assets/ico/favicon16.png">
+	<link rel="icon" sizes="24x24" type="image/png" href="assets/ico/favicon24.png">
+	<link rel="icon" sizes="32x32" type="image/png" href="assets/ico/favicon32.png">
+	<link rel="icon" sizes="48x48" type="image/png" href="assets/ico/favicon48.png">
+	<link rel="icon" sizes="64x64" type="image/png" href="assets/ico/favicon64.png">
+	<link rel="icon" sizes="128x128" type="image/png" href="assets/ico/favicon128.png">
+	<link rel="icon" sizes="256x256" type="image/png" href="assets/ico/favicon256.png">
 	<link rel="stylesheet" type="text/css" href="style.css" />
-
 	<link rel="stylesheet" type="text/css" href="assets/colorbox.css" />
 	<script type="text/javascript" src="assets/jquery.js"></script>
 	<script type="text/javascript" src="assets/colorbox.js"></script>

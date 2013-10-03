@@ -7,7 +7,17 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Our Company History | Home improvement in Stockton Heath, Frodsham and Chester | Nyland Construction</title>
 	<meta name="description" content="Our company history, showing 30 years of experience providing construction services in Appleton, Stretton and Walton." />
-	<link rel="icon" href="assets/icon.ico" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57x57.png">
+	<link rel="icon" sizes="16x16" type="image/png" href="assets/ico/favicon16.png">
+	<link rel="icon" sizes="24x24" type="image/png" href="assets/ico/favicon24.png">
+	<link rel="icon" sizes="32x32" type="image/png" href="assets/ico/favicon32.png">
+	<link rel="icon" sizes="48x48" type="image/png" href="assets/ico/favicon48.png">
+	<link rel="icon" sizes="64x64" type="image/png" href="assets/ico/favicon64.png">
+	<link rel="icon" sizes="128x128" type="image/png" href="assets/ico/favicon128.png">
+	<link rel="icon" sizes="256x256" type="image/png" href="assets/ico/favicon256.png">
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script type="text/javascript">var switchTo5x=true;</script>
 	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
