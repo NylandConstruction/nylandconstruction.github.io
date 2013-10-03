@@ -40,31 +40,37 @@ form				{ float:right; background:#4a4557; color:#fff; padding:20px;  }
 #footer a			{ color:#fff; font:normal 12px/20px Arial, sans-serif;}
 #footer a:hover		{ text-decoration:underline; }
 
-img.fmb, img.niceic, img.gassafe, img.velux{
+img.fmb, img.niceic, img.gassafe, img.velux, img.velux-installer-partnership{
 	background: url(assets/partner_logos.png) no-repeat;
-	padding-bottom:10px;
+	margin-top: 30px;
 }
 
-img.fmb{
-	background-position: 0 0;
-	width: 100px;
-	height: 149px;
+img.fmb {
+    background-position: 0 0;
+    height: 149px;
+    width: 100px;
 }
 
-img.niceic{
-	background-position: 0 -159px ;
-	width: 100px;
-	height: 62px;
+img.niceic {
+    background-position: 0 -155px;
+    height: 60px;
+    width: 100px;
 }
 
-img.gassafe{
-	background-position: -1px -229px ;
-	width: 100px;
-	height: 110px;
+img.gassafe {
+    background-position: 0 -225px;
+    height: 110px;
+    width: 100px;
 }
 
-img.velux{
-	background-position: 0 -366px ;
-	width: 100px;
-	height: 33px;
+img.velux {
+    background-position: 0px -339px;
+    height: 33px;
+    width: 100px;
+}
+
+img.velux-installer-partnership {
+    background-position: 0px -379px;
+    height: 36px;
+    width: 100px;
 }
