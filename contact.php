@@ -83,20 +83,32 @@
 
 			if (isset($_POST['Submit'])) {
 
-				if ($_POST['Question'] == "2") {
-					$headers = "From: noreply@nylandconstruction.co.uk\r\n" . "X-Mailer: php";
-					$to = "enquiries@nylandconstruction.co.uk";
-					$subject = "You have a new Nyland Construction website enquiry!";
-					foreach ($_REQUEST as $key => $val) {
-					$body .= $key . " : " . $val . "\r\n";
-					}
-					mail($to, $subject, $body, $headers);
-					echo "<h2>Thank you, your message has been sent.</h2>";
-					echo "<p>A member of our sales team will be in touch with you as soon as possible.</p>";
-				} else {
-					echo "<h2>Sorry, please go back and answer the security question at the bottom of the form.</h2>";
-					echo "<a href='javascript:history.go(-1)'>Click here to try again.</a>";
-				}
+					require_once('includes/recaptchalib.php');
+					$privatekey = "6LelzuQSAAAAAEVYFne-HdFZlGruZXu2L9g6XFeM";
+					$resp = recaptcha_check_answer ($privatekey,
+                                $_SERVER["REMOTE_ADDR"],
+                                $_POST["recaptcha_challenge_field"],
+                                $_POST["recaptcha_response_field"]);
+
+					if (!$resp->is_valid) {
+						// CAPTCHA was entered incorrectly
+						echo "<h2>Sorry, the reCAPTCHA verification code wasn't entered correctly.</h2>";
+						echo "<h2>Please go back and answer the security question at the bottom of the form again.</h2>";
+						echo "<a href='javascript:history.go(-1)'>Click here to try again.</a>";
+					  } else {
+						// Successful verification
+						$headers = "From: noreply@nylandconstruction.co.uk\r\n" . "X-Mailer: php";
+						$to = "enquiries@nylandconstruction.co.uk";
+						$subject = "You have a new Nyland Construction website enquiry!";
+						unset($_REQUEST['recaptcha_challenge_field'], $_REQUEST['recaptcha_response_field'], $_REQUEST['Submit']);
+						foreach ($_REQUEST as $key => $val) {
+						$body .= $key . " : " . $val . "\r\n";
+						}
+						mail($to, $subject, $body, $headers);
+						echo "<h2>Thank you, your message has been sent.</h2>";
+						echo "<p>A member of our sales team will be in touch with you as soon as possible.</p>";
+						echo "<p><a href='/'>Click here to go back to the home page.</a></p>";
+					  }
 
 			} else {
 
@@ -105,13 +117,17 @@
 				<h2>You can either contact us using the details below or you can use our contact form:</h2>
 
 				<form id="form" name="form" method="post" action="contact.php">
+			    <?php
+					require_once('includes/recaptchalib.php');
+					$publickey = "6LelzuQSAAAAACUrhcAJS8oPCvQMQZZv6H3mccQP";
+		        ?>
 				<table width="100%" border="0" cellspacing="0" cellpadding="5">
 				<tr><td>Name</td><td><input name="Name" type="text" id="Name" class="input" /></td></tr>
 				<tr><td>Address</td><td><textarea name="Address" id="Address" class="input" rows="6"></textarea></td></tr>
 				<tr><td>Email</td><td><input name="Email" type="text" id="Email" class="input" /></td></tr>
 				<tr><td>Telephone</td><td><input name="Telephone" type="text" id="Telephone" class="input" /></td></tr>
 				<tr><td>Message</td><td><textarea name="Message" id="Message" class="input" rows="10"></textarea></td></tr>
-				<tr><td>1 + 1 =</td><td><input name="Question" type="text" id="Question" class="input" value="Please answer the security question here" /></td></tr>
+				<tr><td>Verification</td><td><?php echo recaptcha_get_html($publickey); ?></td></tr>
 				<tr><td>&nbsp;</td><td><input type="submit" name="Submit" id="submit" value="Submit" /></td></tr>
 				</table>
 				</form>
