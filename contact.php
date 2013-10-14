@@ -113,7 +113,11 @@
 			} else {
 
 			?>
-
+				 <script type="text/javascript">
+				 var RecaptchaOptions = {
+					theme : 'white'
+				 };
+				 </script>
 				<h2>You can either contact us using the details below or you can use our contact form:</h2>
 
 				<form id="form" name="form" method="post" action="contact.php">
@@ -122,13 +126,13 @@
 					$publickey = "6LelzuQSAAAAACUrhcAJS8oPCvQMQZZv6H3mccQP";
 		        ?>
 				<table width="100%" border="0" cellspacing="0" cellpadding="5">
-				<tr><td>Name</td><td><input name="Name" type="text" id="Name" class="input" /></td></tr>
-				<tr><td>Address</td><td><textarea name="Address" id="Address" class="input" rows="6"></textarea></td></tr>
-				<tr><td>Email</td><td><input name="Email" type="text" id="Email" class="input" /></td></tr>
-				<tr><td>Telephone</td><td><input name="Telephone" type="text" id="Telephone" class="input" /></td></tr>
-				<tr><td>Message</td><td><textarea name="Message" id="Message" class="input" rows="10"></textarea></td></tr>
-				<tr><td>Verification</td><td><?php echo recaptcha_get_html($publickey); ?></td></tr>
-				<tr><td>&nbsp;</td><td><input type="submit" name="Submit" id="submit" value="Submit" /></td></tr>
+				<tr><td>Name</td><td align="right"><input name="Name" type="text" id="Name" class="input" /></td></tr>
+				<tr><td>Address</td><td align="right"><textarea name="Address" id="Address" class="input" rows="6"></textarea></td></tr>
+				<tr><td>Email</td><td align="right"><input name="Email" type="text" id="Email" class="input" /></td></tr>
+				<tr><td>Telephone</td><td align="right"><input name="Telephone" type="text" id="Telephone" class="input" /></td></tr>
+				<tr><td>Message</td><td align="right"><textarea name="Message" id="Message" class="input" rows="10"></textarea></td></tr>
+				<tr><td colspan="0"><?php echo recaptcha_get_html($publickey); ?></td></tr>
+				<tr><td/><td align="right"><input type="submit" name="Submit" id="submit" value="Submit" /></td></tr>
 				</table>
 				</form>
 
