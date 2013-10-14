@@ -31,7 +31,7 @@ ul#menu li a.active	{ color:#922a8e; }
 #social				{ float:left; padding-top:10px; }
 
 .gallery			{ width:140px; height:140px; float:left; background:#fff; margin:0 10px 10px 0; border:10px solid #fff; }
-.gallery img		{ max-width:140px; max-height:140px; }
+.gallery img		{ max-width:140px; max-height:140px; display: block; margin: auto;}
 
 form				{ float:right; background:#4a4557; color:#fff; padding:20px;  }
 .input				{ width:220px; }
