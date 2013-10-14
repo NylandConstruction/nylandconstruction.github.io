@@ -88,7 +88,7 @@
 			  <li> Local building work, e.g. house builds, house extensions, kitchens, bathrooms, etc.</li>
 		      <li> Sub-contract building work for C.S.E Storage Equipment, Galliford Try and Kingfisher Swimming Pools.</li>
 		  	</ul>
-		  	<h2>2000-2011</h2>
+		  	<h2>2000-<i>Present</i></h2>
 			<ul>
 			  <li> Property developments</li>
 		      <li> House refurbishments</li>
