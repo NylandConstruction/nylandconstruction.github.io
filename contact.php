@@ -131,7 +131,7 @@
 				<tr><td>Email</td><td align="right"><input name="Email" type="text" id="Email" class="input" /></td></tr>
 				<tr><td>Telephone</td><td align="right"><input name="Telephone" type="text" id="Telephone" class="input" /></td></tr>
 				<tr><td>Message</td><td align="right"><textarea name="Message" id="Message" class="input" rows="10"></textarea></td></tr>
-				<tr><td colspan="0"><?php echo recaptcha_get_html($publickey); ?></td></tr>
+				<tr><td colspan="2"><?php echo recaptcha_get_html($publickey); ?></td></tr>
 				<tr><td/><td align="right"><input type="submit" name="Submit" id="submit" value="Submit" /></td></tr>
 				</table>
 				</form>
