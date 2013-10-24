@@ -71,7 +71,7 @@
 			if (isset($_POST['Submit'])) {
 
 					require_once('includes/recaptchalib.php');
-					$privatekey = "6LelzuQSAAAAAEVYFne-HdFZlGruZXu2L9g6XFeM";
+					$privatekey = "6LcJROkSAAAAAIPP5MAxwM9x_Ou1xWnbanTL_o2R";
 					$resp = recaptcha_check_answer ($privatekey,
                                 $_SERVER["REMOTE_ADDR"],
                                 $_POST["recaptcha_challenge_field"],
@@ -110,7 +110,7 @@
 				<form id="form" name="form" method="post" action="contact.php">
 			    <?php
 					require_once('includes/recaptchalib.php');
-					$publickey = "6LelzuQSAAAAACUrhcAJS8oPCvQMQZZv6H3mccQP";
+					$publickey = "6LcJROkSAAAAAJGv8tYjRwz7zHfmNzV3yS_7EDJ-";
 		        ?>
 				<table width="100%" border="0" cellspacing="0" cellpadding="5">
 				<tr><td>Name</td><td align="right"><input name="Name" type="text" id="Name" class="input" /></td></tr>
