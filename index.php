@@ -7,7 +7,7 @@ $metadescription = 'Nyland Construction are building contractors based in Warrin
 
 <?php
 // Header
-require_once('includes/header.php');
+require_once('includes/header.inc.php');
 ?>
 
 	</head>
@@ -45,18 +45,18 @@ require_once('includes/header.php');
 					<p>Call us today for a free quotation!</p>
 					<?php
 					// Social media
-					require_once('includes/social.php');
+					require_once('includes/social.inc.php');
 					?>
 				</div>
 				<?php
 				// Partner logos
-				require_once('includes/partnerlogos.php');
+				require_once('includes/partnerlogos.inc.php');
 				?>
 			</div>
 			<img src="assets/shadow.jpg" alt="" />
 			<?php
 			// Footer
-			require_once('includes/footer.php');
+			require_once('includes/footer.inc.php');
 			?>
 		</div>
 		<script type="text/javascript" src="assets/jquery.js"></script>

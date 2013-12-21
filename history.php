@@ -7,7 +7,7 @@ $metadescription = 'Our company history, showing 30 years of experience providin
 
 <?php
 // Header
-require_once('includes/header.php');
+require_once('includes/header.inc.php');
 ?>
 
 	</head>
@@ -57,18 +57,18 @@ require_once('includes/header.php');
 					</ul>
 					<?php
 					// Social media
-					require_once('includes/social.php');
+					require_once('includes/social.inc.php');
 					?>
 				</div>
 				<?php
 				// Partner logos
-				require_once('includes/partnerlogos.php');
+				require_once('includes/partnerlogos.inc.php');
 				?>
 			</div>
 			<img src="assets/shadow.jpg" alt="" />
 			<?php
 			// Footer
-			require_once('includes/footer.php');
+			require_once('includes/footer.inc.php');
 			?>
 		</div>
 	</body>

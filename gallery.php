@@ -7,7 +7,7 @@ $metadescription = 'View our portfolio of previous projects, completed on time a
 
 <?php
 // Header
-require_once('includes/header.php');
+require_once('includes/header.inc.php');
 ?>
 
 		<link rel="stylesheet" type="text/css" href="assets/colorbox.css" />
@@ -57,18 +57,18 @@ require_once('includes/header.php');
 					<br style="clear:both;"/>
 					<?php
 					// Social media
-					require_once('includes/social.php');
+					require_once('includes/social.inc.php');
 					?>
 				</div>
 				<?php
 				// Partner logos
-				require_once('includes/partnerlogos.php');
+				require_once('includes/partnerlogos.inc.php');
 				?>
 			</div>
 			<img src="assets/shadow.jpg" alt="" />
 			<?php
 			// Footer
-			require_once('includes/footer.php');
+			require_once('includes/footer.inc.php');
 			?>
 		</div>
 		<script type="text/javascript" src="assets/jquery.js"></script>

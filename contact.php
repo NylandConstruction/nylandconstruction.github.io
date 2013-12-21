@@ -7,7 +7,7 @@ $metadescription = 'Please feel free to contact us if you would like to discuss 
 
 <?php
 // Header
-require_once('includes/header.php');
+require_once('includes/header.inc.php');
 ?>
 
 	</head>
@@ -39,7 +39,7 @@ require_once('includes/header.php');
 					<?php
 					if (isset($_POST['Submit'])) {
 
-						require_once('includes/recaptchalib.php');
+						require_once('includes/recaptchalib.inc.php');
 						$privatekey = "6LcJROkSAAAAAIPP5MAxwM9x_Ou1xWnbanTL_o2R";
 						$resp = recaptcha_check_answer ($privatekey,
 									$_SERVER["REMOTE_ADDR"],
@@ -76,7 +76,7 @@ require_once('includes/header.php');
 					<h2>You can either contact us using the details below or you can use our contact form:</h2>
 					<form id="form" name="form" method="post" action="contact.php">
 					<?php
-						require_once('includes/recaptchalib.php');
+						require_once('includes/recaptchalib.inc.php');
 						$publickey = "6LcJROkSAAAAAJGv8tYjRwz7zHfmNzV3yS_7EDJ-";
 					?>
 					<table width="100%" border="0" cellspacing="0" cellpadding="5">
@@ -101,19 +101,19 @@ require_once('includes/header.php');
 					<p><a href="mailto:enquiries@nylandconstruction.co.uk">enquiries@nylandconstruction.co.uk</a></p>
 					<?php
 					// Social media
-					require_once('includes/social.php');
+					require_once('includes/social.inc.php');
 					?>
 					<?php } ?>
 				</div>
 				<?php
 				// Partner logos
-				require_once('includes/partnerlogos.php');
+				require_once('includes/partnerlogos.inc.php');
 				?>
 			</div>
 			<img src="assets/shadow.jpg" alt="" />
 			<?php
 			// Footer
-			require_once('includes/footer.php');
+			require_once('includes/footer.inc.php');
 			?>
 		</div>
 	</body>

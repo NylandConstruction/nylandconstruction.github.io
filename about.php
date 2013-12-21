@@ -7,7 +7,7 @@ $metadescription = 'All about Nyland Construction and what we do.';
 
 <?php
 // Header
-require_once('includes/header.php');
+require_once('includes/header.inc.php');
 ?>
 
 	</head>
@@ -53,18 +53,18 @@ require_once('includes/header.php');
 				<p>Whether you are upgrading your original frames or restoring your home to its former glory, traditional wood or PVC windows and doors will add value to your home. Our bespoke design services can recreate an existing design to maintain a homes traditional look and feel. We can also offer a wide range of PVC Doors and windows in many colours.</p>
 				<?php
 				// Social media
-				require_once('includes/social.php');
+				require_once('includes/social.inc.php');
 				?>
 				</div>
 				<?php
 				// Partner logos
-				require_once('includes/partnerlogos.php');
+				require_once('includes/partnerlogos.inc.php');
 				?>
 			</div>
 			<img src="assets/shadow.jpg" alt="" />
 			<?php
 			// Footer
-			require_once('includes/footer.php');
+			require_once('includes/footer.inc.php');
 			?>
 		</div>
 	</body>
