@@ -15,7 +15,7 @@
 	<link rel="icon" sizes="64x64" type="image/png" href="/assets/ico/favicon64.png">
 	<link rel="icon" sizes="128x128" type="image/png" href="/assets/ico/favicon128.png">
 	<link rel="icon" sizes="256x256" type="image/png" href="/assets/ico/favicon256.png">
-	<link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
 	<script type="text/javascript">var switchTo5x=true;</script>
 	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 	<script type="text/javascript">stLight.options({publisher: "f6cd0b32-65f2-4a00-b9c6-6e410baf36b7", doNotHash: false, doNotCopy: false, hashAddressBar: false,});</script>
