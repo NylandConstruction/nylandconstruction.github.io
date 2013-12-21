@@ -16,10 +16,10 @@ require_once('includes/header.inc.php');
 		<div id="wrapper">
 			<div id="header">
 				<div id="hleft">
-				<a href="/"><img src="assets/logo.gif" alt="" /></a>
+				<a href="/"><img src="/assets/logo.gif" alt="" /></a>
 				</div>
 				<div id="hright">
-				<a href="tel:01925604354"><img src="assets/telephone.gif" alt="Telephone 01925 604354" /></a><br />
+				<a href="tel:01925604354"><img src="/assets/telephone.gif" alt="Telephone 01925 604354" /></a><br />
 				<ul id="menu" class="">
 					<li><a href="/">Home</a></li>
 					<li><a href="about.php" class="active">About</a></li>
@@ -30,9 +30,9 @@ require_once('includes/header.inc.php');
 				</div>
 			</div>
 			<div id="intro">
-			<img src="assets/about.jpg" alt="Bespoke Building &amp; Joinery" />
+			<img src="/assets/about.jpg" alt="Bespoke Building &amp; Joinery" />
 			</div>
-			<img src="assets/shadow.jpg" alt="" />
+			<img src="/assets/shadow.jpg" alt="" />
 			<div id="content">
 				<div id="left">
 				<h1>About Nyland Construction</h1>
@@ -61,7 +61,7 @@ require_once('includes/header.inc.php');
 				require_once('includes/partnerlogos.inc.php');
 				?>
 			</div>
-			<img src="assets/shadow.jpg" alt="" />
+			<img src="/assets/shadow.jpg" alt="" />
 			<?php
 			// Footer
 			require_once('includes/footer.inc.php');
