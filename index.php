@@ -19,7 +19,7 @@ require_once('includes/header.inc.php');
 				<a href="/"><img src="/assets/logo.gif" alt="" /></a>
 				</div>
 				<div id="hright">
-					<a href="tel:01925604354"><img src="/assets/telephone.gif" alt="Telephone 01925 604354" /></a>
+					<a href="tel://01925604354"><img src="/assets/telephone.gif" alt="Telephone 01925 604354" /></a>
 					<ul id="menu" class="">
 						<li><a href="/" class="active">Home</a></li>
 						<li><a href="about.php">About</a></li>
