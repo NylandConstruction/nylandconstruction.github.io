@@ -58,7 +58,7 @@ require_once('includes/header.inc.php');
 							$subject = "You have a new Nyland Construction website enquiry!";
 							unset($_REQUEST['recaptcha_challenge_field'], $_REQUEST['recaptcha_response_field'], $_REQUEST['Submit']);
 							foreach ($_REQUEST as $key => $val) {
-							$body .= $key . " : " . $val . "\r\n";
+							$body .= ucfirst($key) . ": " . $val . "\r\n";
 							}
 							mail($to, $subject, $body, $headers);
 							echo "<h2>Thank you, your message has been sent.</h2>";
