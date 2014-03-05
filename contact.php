@@ -52,15 +52,18 @@ require_once('includes/header.inc.php');
 							echo "<h2>Please go back and answer the security question at the bottom of the form again.</h2>";
 							echo "<a href='javascript:history.go(-1)'>Click here to try again.</a>";
 						  } else {
-							// Successful verification
-							$headers = "From: no-reply@nylandconstruction.co.uk\r\n" . "X-Mailer: php";
-							$to = "enquiries@nylandconstruction.co.uk";
-							$subject = "You have a new Nyland Construction website enquiry!";
-							unset($_REQUEST['recaptcha_challenge_field'], $_REQUEST['recaptcha_response_field'], $_REQUEST['Submit']);
-							foreach ($_REQUEST as $key => $val) {
-							$body .= ucfirst($key) . ": " . $val . "\r\n";
-							}
-							mail($to, $subject, $body, $headers);
+                            // CAPTCHA was entered correctly - send email
+                            $to = "enquiries@nylandconstruction.co.uk";
+                            $from = "no-reply@nylandconstruction.co.uk";
+                            $subject = "You have a new Nyland Construction website enquiry!";
+                            $headers = "From: $from" . "\r\n" .
+                                "Reply-To: $from" . "\r\n" .
+                                "X-Mailer: php";
+                            unset($_REQUEST['recaptcha_challenge_field'], $_REQUEST['recaptcha_response_field'], $_REQUEST['submit']); // unset() some keys in the array that we don't want.
+                            foreach ($_REQUEST as $key => $val) {
+                                $body .= ucfirst($key) . ": " . $val . "\r\n"; // ucfirst() the keys to make the first letter capital.
+                            }
+                            mail($to, $subject, $body, $headers, "-f" . $from); //send the mail
 							echo "<h2>Thank you, your message has been sent.</h2>";
 							echo "<p>A member of our sales team will be in touch with you as soon as possible.</p>";
 							echo "<p><a href='/'>Click here to go back to the home page.</a></p>";
