@@ -40,14 +40,14 @@ require_once('includes/header.inc.php');
 					<h1>Our Portfolio Gallery</h1>
 					<h2>Please select an image to view:</h2>
 					<?php
-					$path = "gallery/images/";
+					$path = "assets/img/gallery/images/";
 					$dir_handle = @opendir($path) or die("Unable to open folder");
 					while (false !== ($file = readdir($dir_handle))) {
 						if(ereg("(.*)\.(jpg|jpeg|bmp|png|gif|JPG|JPEG|BMP|PNG|GIF)", $file)){
 
 							echo "<div class='gallery'>\n";
-							echo "<a href='gallery/images/$file' rel='cb1' title=''>\n";
-							echo "<img src='gallery/thumbnails/$file' />\n";
+							echo "<a href='assets/img/gallery/images/$file' rel='cb1' title=''>\n";
+							echo "<img src='assets/img/gallery/thumbnails/$file' />\n";
 							echo "</a></div>\n\n";
 
 						}
