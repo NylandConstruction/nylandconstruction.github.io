@@ -1,8 +1,8 @@
 /* pink:#922a8e / purple:#4a4557 / cyan:#aedfe3 grey:#eeedef */
 
 html				{ font:normal 14px/20px Arial, sans-serif; color:#333; }
-body#home			{ margin:0; background:#4a4557 url(../bg.gif) repeat-x; }
-body#page			{ margin:0; background:#4a4557 url(../bg2.gif) repeat-x; }
+body#home			{ margin:0; background:#4a4557 url(../img/bg.gif) repeat-x; }
+body#page			{ margin:0; background:#4a4557 url(../img/bg2.gif) repeat-x; }
 #wrapper			{ width:940px; margin:0px auto; padding:0; }
 img					{ border:0; }
 a					{ text-decoration:none; color:#922a8e; font-weight:bold; }
@@ -25,7 +25,7 @@ ul#menu li a.active	{ color:#922a8e; }
 #intro				{ clear:both; }
 #intro img			{ top:0; left:0; }
 
-#content			{ background:#eeedef url(../content.gif) repeat-x; padding:50px; overflow:hidden; }
+#content			{ background:#eeedef url(../img/content.gif) repeat-x; padding:50px; overflow:hidden; }
 #left				{ float:left; width:690px; margin:0 50px 0 0; }
 #right				{ float:left; width:100px; margin:0 0 0 0; }
 #social				{ float:left; padding-top:10px; }
@@ -41,7 +41,7 @@ form				{ float:right; background:#4a4557; color:#fff; padding:20px;  }
 #footer a:hover		{ text-decoration:underline; }
 
 img.fmb, img.niceic, img.gassafe, img.velux, img.velux-installer-partnership{
-	background: url(../partner_logos.png) no-repeat;
+	background: url(../img/partner_logos.png) no-repeat;
 	margin-top: 30px;
 }
 
