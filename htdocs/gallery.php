@@ -71,8 +71,8 @@ require_once('includes/header.inc.php');
 			require_once('includes/footer.inc.php');
 			?>
 		</div>
-		<script type="text/javascript" src="assets/jquery.js"></script>
-		<script type="text/javascript" src="assets/colorbox.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.js"></script>
+		<script type="text/javascript" src="assets/js/colorbox.js"></script>
 		<script type="text/javascript">$(document).ready(function(){ $("a[rel='cb1']").colorbox(); });</script>
 	</body>
 </html>

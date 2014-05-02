@@ -59,8 +59,8 @@ require_once('includes/header.inc.php');
 			require_once('includes/footer.inc.php');
 			?>
 		</div>
-		<script type="text/javascript" src="assets/jquery.js"></script>
-		<script type="text/javascript" src="assets/cycle.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.js"></script>
+		<script type="text/javascript" src="assets/js/cycle.js"></script>
 		<script type="text/javascript">$('#intro').cycle('fade');</script>
 	</body>
 </html>
