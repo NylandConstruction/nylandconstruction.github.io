@@ -10,7 +10,7 @@ $metadescription = 'View our portfolio of previous projects, completed on time a
 require_once('includes/header.inc.php');
 ?>
 
-		<link rel="stylesheet" type="text/css" href="assets/colorbox.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/colorbox.css" />
 
 	</head>
 
