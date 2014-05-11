@@ -1,0 +1,76 @@
+/* pink:#922a8e / purple:#4a4557 / cyan:#aedfe3 grey:#eeedef */
+
+html				{ font:normal 14px/20px Arial, sans-serif; color:#333; }
+body#home			{ margin:0; background:#4a4557 url(../img/bg.gif) repeat-x; }
+body#page			{ margin:0; background:#4a4557 url(../img/bg2.gif) repeat-x; }
+#wrapper			{ width:940px; margin:0px auto; padding:0; }
+img					{ border:0; }
+a					{ text-decoration:none; color:#922a8e; font-weight:bold; }
+a:hover				{ color:#aedfe3; }
+h1					{ font:bold 36px/42px Arial, sans-serif; color:#922a8e; margin:0 0 20px 0; }
+h2					{ font:normal 18px/24px Arial, sans-serif; color:#4a4557; margin:0 0 20px 0; text-align:justify; }
+p					{ font:normal 14px/20px Arial, sans-serif; color:#666; margin:0 0 20px 0; text-align:justify; }
+
+
+#header				{ width:940px; }
+#header	#hleft		{ float:left; }
+#header #hright		{ float:right; text-align:right; }
+
+ul#menu				{ margin:20px 0 0 0; padding:7px; list-style:none; overflow:hidden; }
+ul#menu li			{ float:left; font:bold 16px/16px Arial, sans-serif; }
+ul#menu li a		{ color:#4a4557; padding:10px; display:block; }
+ul#menu li a:hover	{ color:#922a8e; }
+ul#menu li a.active	{ color:#922a8e; }
+
+#intro				{ clear:both; }
+#intro img			{ top:0; left:0; }
+
+#content			{ background:#eeedef url(../img/content.gif) repeat-x; padding:50px; overflow:hidden; }
+#left				{ float:left; width:690px; margin:0 50px 0 0; }
+#right				{ float:left; width:100px; margin:0 0 0 0; }
+#social				{ float:left; padding-top:10px; }
+
+.gallery			{ width:140px; height:140px; float:left; background:#fff; margin:0 10px 10px 0; border:10px solid #fff; }
+.gallery img		{ max-width:140px; max-height:140px; display: block; margin: auto;}
+
+form				{ float:right; background:#4a4557; color:#fff; padding:20px;  }
+.input				{ width:220px; }
+
+#footer				{ clear:both; color:#fff; background:#922a8e; padding:7px 15px; margin:0 0 30px 0; overflow:hidden; }
+#footer a			{ color:#fff; font:normal 12px/20px Arial, sans-serif;}
+#footer a:hover		{ text-decoration:underline; }
+
+img.fmb, img.niceic, img.gassafe, img.velux, img.velux-installer-partnership{
+	background: url(../img/partner_logos.png) no-repeat;
+	margin-top: 30px;
+}
+
+img.fmb {
+    background-position: 0 0;
+    height: 149px;
+    width: 100px;
+}
+
+img.niceic {
+    background-position: 0 -155px;
+    height: 60px;
+    width: 100px;
+}
+
+img.gassafe {
+    background-position: 0 -225px;
+    height: 110px;
+    width: 100px;
+}
+
+img.velux {
+    background-position: 0px -339px;
+    height: 33px;
+    width: 100px;
+}
+
+img.velux-installer-partnership {
+    background-position: 0px -379px;
+    height: 36px;
+    width: 100px;
+}
