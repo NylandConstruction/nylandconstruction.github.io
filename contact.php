@@ -55,7 +55,7 @@ require_once('includes/header.inc.php');
                             // CAPTCHA was entered correctly - send email
                             $to = "enquiries@nylandconstruction.co.uk";
                             $from = "no-reply@nylandconstruction.co.uk";
-                            $subject = "You have a new Nyland Construction website enquiry!";
+                            $subject = "Nyland Construction website enquiry";
                             $headers = "From: $from" . "\r\n" .
                                 "Reply-To: $from" . "\r\n" .
                                 "X-Mailer: php";
