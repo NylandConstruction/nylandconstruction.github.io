@@ -57,7 +57,7 @@ require_once('includes/header.inc.php');
                             $from = "no-reply@nylandconstruction.co.uk";
                             $subject = "Nyland Construction website enquiry";
                             $headers = "From: $from" . "\r\n" .
-                                "Reply-To: $from" . "\r\n" .
+                                "Reply-To: $_REQUEST[email]" . "\r\n" .
                                 "X-Mailer: php";
                             unset($_REQUEST['recaptcha_challenge_field'], $_REQUEST['recaptcha_response_field'], $_REQUEST['submit']); // unset() some keys in the array that we don't want.
                             foreach ($_REQUEST as $key => $val) {
