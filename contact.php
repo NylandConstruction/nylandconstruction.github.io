@@ -37,7 +37,7 @@ require_once('includes/header.inc.php');
 				<div id="left">
 					<h1>Contact Us</h1>
 					<?php
-					if (isset($_POST['Submit'])) {
+					if (isset($_POST['submit'])) {
 
 						require_once('includes/recaptchalib.inc.php');
 						$privatekey = "6LcJROkSAAAAAIPP5MAxwM9x_Ou1xWnbanTL_o2R";
@@ -89,7 +89,7 @@ require_once('includes/header.inc.php');
 					<tr><td>Telephone</td><td align="right"><input name="Telephone" type="text" id="Telephone" class="input" /></td></tr>
 					<tr><td>Message</td><td align="right"><textarea name="Message" id="Message" class="input" rows="10"></textarea></td></tr>
 					<tr><td colspan="2"><?php echo recaptcha_get_html($publickey); ?></td></tr>
-					<tr><td/><td align="right"><input type="submit" name="Submit" id="submit" value="Submit" /></td></tr>
+					<tr><td/><td align="right"><input type="submit" name="submit" id="submit" value="Submit" /></td></tr>
 					</table>
 					</form>
 					<p><strong>Nyland Construction</strong><br />
