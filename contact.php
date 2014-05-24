@@ -83,11 +83,11 @@ require_once('includes/header.inc.php');
 						$publickey = "6LcJROkSAAAAAJGv8tYjRwz7zHfmNzV3yS_7EDJ-";
 					?>
 					<table width="100%" border="0" cellspacing="0" cellpadding="5">
-					<tr><td>Name</td><td align="right"><input name="Name" type="text" id="Name" class="input" /></td></tr>
-					<tr><td>Address</td><td align="right"><textarea name="Address" id="Address" class="input" rows="6"></textarea></td></tr>
-					<tr><td>Email</td><td align="right"><input name="Email" type="text" id="Email" class="input" /></td></tr>
-					<tr><td>Telephone</td><td align="right"><input name="Telephone" type="text" id="Telephone" class="input" /></td></tr>
-					<tr><td>Message</td><td align="right"><textarea name="Message" id="Message" class="input" rows="10"></textarea></td></tr>
+					<tr><td>Name</td><td align="right"><input name="name" type="text" id="name" class="input" /></td></tr>
+					<tr><td>Address</td><td align="right"><textarea name="address" id="address" class="input" rows="6"></textarea></td></tr>
+					<tr><td>Email</td><td align="right"><input name="email" type="text" id="email" class="input" /></td></tr>
+					<tr><td>Telephone</td><td align="right"><input name="telephone" type="text" id="telephone" class="input" /></td></tr>
+					<tr><td>Message</td><td align="right"><textarea name="message" id="message" class="input" rows="10"></textarea></td></tr>
 					<tr><td colspan="2"><?php echo recaptcha_get_html($publickey); ?></td></tr>
 					<tr><td/><td align="right"><input type="submit" name="submit" id="submit" value="Submit" /></td></tr>
 					</table>
