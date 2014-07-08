@@ -24,7 +24,7 @@ require_once('includes/header.inc.php');
 					<li><a href="/">Home</a></li>
 					<li><a href="about.php">About</a></li>
 					<li><a href="gallery.php">Gallery</a></li>
-					<li><a href="history.php">History</a></li>
+					<li><a href="history.html">History</a></li>
 					<li><a href="contact.php" class="active">Contact</a></li>
 				</ul>
 				</div>
