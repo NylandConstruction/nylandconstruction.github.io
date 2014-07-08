@@ -1,5 +1,2 @@
-# Ignore the PhpStorm project metadata directory:
+.DS_Store
 .idea/
-
-# Ignore Mac custom attribute files:
-*.DS_Store
