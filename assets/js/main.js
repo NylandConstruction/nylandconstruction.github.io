@@ -1,9 +1,6 @@
 /**
  * Project: www.nylandconstruction.co.uk
- * File:
- * User: joenyland
- * Date: 08/07/2014
- * Time: 14:16
+ * File: main.js
  */
 
 function getYear() {
