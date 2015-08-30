@@ -160,11 +160,12 @@ form {
     padding:    7px 15px;
     margin:     0 0 30px 0;
     overflow:   hidden;
+    font:       normal 12px/20px Arial, sans-serif;
 }
 
 #footer a {
     color: #fff;
-    font:  normal 12px/20px Arial, sans-serif;
+    font-weight: normal;
 }
 
 #footer a:hover {
