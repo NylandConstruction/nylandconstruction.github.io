@@ -68,6 +68,18 @@ p {
     text-align: right;
 }
 
+#header #hright #telephone-number {
+    background-color: #494556;
+    width: 300px;
+    height: 40px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    font-size: large;
+    line-height: 40px;
+}
+
 ul#menu {
     margin:     20px 0 0 0;
     padding:    7px;
