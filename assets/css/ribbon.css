@@ -4,8 +4,7 @@
     -webkit-box-sizing: border-box;
 }
 
-.content-box {
-    /*margin: 15px;*/
+.container {
     width: 940px;
     height: 340px;
     position: relative;
