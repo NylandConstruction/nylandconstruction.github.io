@@ -219,3 +219,8 @@ img.velux-installer-partnership {
     height:              36px;
     width:               100px;
 }
+
+/* Set the position of the ribbon for the header images on home page */
+#header-images .ribbon-wrapper {
+    top: 140px;
+}
