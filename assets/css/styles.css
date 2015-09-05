@@ -106,13 +106,26 @@ ul#menu li a.active {
     color: #922a8e;
 }
 
-#intro {
+#header-images {
     clear: both;
 }
 
-#intro img {
+#header-images.home {
+    height:350px;
+}
+
+#header-images img {
     top:  0;
     left: 0;
+}
+
+/* Hide homepage images except for the first whilst the Cycle plugin loads */
+#header-images > .ribbon-container {
+    display: none;
+}
+
+#header-images > .ribbon-container:first-of-type {
+    display: inherit;
 }
 
 #content {
@@ -218,4 +231,9 @@ img.velux-installer-partnership {
     background-position: 0px -379px;
     height:              36px;
     width:               100px;
+}
+
+/* Set the position of the ribbon for the header images on home page */
+#header-images .ribbon-wrapper {
+    top: 140px;
 }

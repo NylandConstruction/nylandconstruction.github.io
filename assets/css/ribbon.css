@@ -1,0 +1,133 @@
+/* COMMON */
+.ribbon-container {
+    position: relative;
+}
+
+.ribbon-wrapper > * {
+    /* All elements should have padding and border included in the element's total width and height */
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.ribbon-wrapper {
+    position: absolute;
+    top: 0; /* Default to the top of the container */
+    overflow: visible;
+    /* line-height and font-size equal to vertically centre text */
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.ribbon-wrapper:before, .ribbon-wrapper:after {
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+.ribbon-wrapper div.ribbon:after, .ribbon-wrapper div.ribbon:before {
+    content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    position: absolute;
+}
+
+.ribbon-wrapper div.ribbon {
+    display: block;
+    padding: 20px;
+    position: relative;
+    background: #922a8e;
+    overflow: visible;
+    height: 58px;
+    color: #fff;
+    z-index: 1;
+}
+
+/* RIGHT */
+.ribbon-wrapper.right {
+    right: -15px;
+}
+
+.ribbon-wrapper.right div.ribbon:after {
+    /* This creates the "folded" part of the ribbon */
+    bottom: -15px;
+    right: 0;
+    border-top: 15px solid #3a3745;
+    border-right: 15px solid transparent;
+}
+
+.ribbon-wrapper.right div.ribbon:before {
+    /* This creates the trailing end of the ribbon */
+    top: 0;
+    left: -29px;
+    border-top: 29px solid #922a8e;
+    border-bottom: 29px solid #922a8e;
+    border-right: 29px solid transparent;
+    border-left: 29px solid transparent;
+}
+
+.ribbon-wrapper.right:before {
+    /* This creates the shadow for the trailing end of the ribbon */
+    height: 0;
+    width: 0;
+    top: 3px;
+    left: -29px;
+    border-top: 29px solid rgba(0, 0, 0, .3);
+    border-bottom: 29px solid rgba(0, 0, 0, .3);
+    border-right: 29px solid rgba(0, 0, 0, .3);
+    border-left: 29px solid transparent;
+}
+
+.ribbon-wrapper.right:after {
+    /* This creates the shadow for the main body of the ribbon */
+    height: 3px;
+    bottom: -3px;
+    left: 29px;
+    right: 15px;
+    background: rgba(0, 0, 0, .3);
+}
+
+/* LEFT */
+.ribbon-wrapper.left {
+    left: -15px;
+}
+
+.ribbon-wrapper.left div.ribbon:before {
+    /* This creates the "folded" part of the ribbon */
+    bottom: -15px;
+    left: 0;
+    border-top: 15px solid #4a4557;
+    border-left: 15px solid transparent;
+}
+
+.ribbon-wrapper.left div.ribbon:after {
+    /* This creates the trailing end of the ribbon */
+    top: 0;
+    right: -29px;
+    border-top: 29px solid #922a8e;
+    border-bottom: 29px solid #922a8e;
+    border-right: 29px solid transparent;
+    border-left: 29px solid transparent;
+}
+
+.ribbon-wrapper.left:after {
+    /* This creates the shadow for the trailing end of the ribbon */
+    height: 0;
+    width: 0;
+    top: 3px;
+    right: -29px;
+    border-top: 29px solid rgba(0, 0, 0, .3);
+    border-bottom: 29px solid rgba(0, 0, 0, .3);
+    border-left: 29px solid rgba(0, 0, 0, .3);
+    border-right: 29px solid transparent;
+}
+
+.ribbon-wrapper.left:before {
+    /* This creates the shadow for the main body of the ribbon */
+    height:     3px;
+    bottom:     -3px;
+    left:       15px;
+    right:      29px;
+    background: rgba(0, 0, 0, .3);
+}
