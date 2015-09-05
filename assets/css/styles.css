@@ -115,6 +115,15 @@ ul#menu li a.active {
     left: 0;
 }
 
+/* Hide homepage images except for the first whilst the Cycle plugin loads */
+#header-images > .ribbon-container {
+    display: none;
+}
+
+#header-images > .ribbon-container:first-of-type {
+    display: inherit;
+}
+
 #content {
     background: #eeedef url(../img/content.gif) repeat-x;
     padding:    50px;
