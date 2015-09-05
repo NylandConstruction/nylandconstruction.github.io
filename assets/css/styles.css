@@ -108,6 +108,9 @@ ul#menu li a.active {
 
 #header-images {
     clear: both;
+}
+
+#header-images.home {
     height:350px;
 }
 
