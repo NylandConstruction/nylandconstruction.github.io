@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.content-box {
+    /*margin: 15px;*/
+    width: 940px;
+    height: 340px;
+    position: relative;
+}
+
+.ribbon-container {
+    position: absolute;
+    top: 140px;
+    right: -15px;
+    overflow: visible;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.ribbon-container:before {
+    content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    /* These 4 border properties create the first part of our drop-shadow */
+    border-top: 29px solid rgba(0, 0, 0, .3);
+    border-bottom: 29px solid rgba(0, 0, 0, .3);
+    border-right: 29px solid rgba(0, 0, 0, .3);
+    border-left: 29px solid transparent;
+}
+
+.ribbon-container:after {
+    content: "";
+    height: 3px;
+    background: rgba(0, 0, 0, .3);
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 58px;
+    right: 3px;
+}
+
+.ribbon-container div.ribbon {
+    display: block;
+    padding: 20px;
+    position: relative;
+    background: #922a8e;
+    overflow: visible;
+    height: 58px;
+    margin-left: 29px;
+    color: #fff;
+}
+
+.ribbon-container div.ribbon:after {
+    /* This creates the "folded" part of the ribbon */
+    content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+    border-top: 15px solid #4a4557;
+    border-right: 15px solid transparent;
+}
+
+.ribbon-container div.ribbon:before {
+    /* This creates the trailing end of the ribbon */
+    content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -29px;
+    border-top: 29px solid #922a8e;
+    border-bottom: 29px solid #922a8e;
+    border-right: 29px solid transparent;
+    border-left: 29px solid transparent;
+}
