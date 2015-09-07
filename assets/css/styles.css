@@ -68,6 +68,11 @@ p {
     text-align: right;
 }
 
+#header img.logo {
+    width: 380px;
+    margin: 22px 10px;
+}
+
 #header #hright #telephone-number {
     background-color: #494556;
     width: 300px;
