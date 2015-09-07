@@ -198,39 +198,36 @@ form {
     text-decoration: underline;
 }
 
-img.fmb, img.niceic, img.gassafe, img.velux, img.velux-installer-partnership {
+.partner-logo {
     background: url(../img/partner_logos.png) no-repeat;
-    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    width: 100px;
 }
 
-img.fmb {
+.partner-logo.fmb {
     background-position: 0 0;
     height:              149px;
-    width:               100px;
 }
 
-img.niceic {
+.partner-logo.niceic {
     background-position: 0 -155px;
     height:              60px;
-    width:               100px;
 }
 
-img.gassafe {
+.partner-logo.gassafe {
     background-position: 0 -225px;
     height:              110px;
-    width:               100px;
 }
 
-img.velux {
+.partner-logo.velux {
     background-position: 0 -339px;
     height:              33px;
-    width:               100px;
 }
 
-img.velux-installer-partnership {
+.partner-logo.velux-installer-partnership {
     background-position: 0 -379px;
     height:              36px;
-    width:               100px;
 }
 
 /* Set the position of the ribbon for the header images on home page */
