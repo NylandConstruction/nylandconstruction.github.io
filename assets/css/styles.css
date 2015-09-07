@@ -129,7 +129,7 @@ ul#menu li a.active {
 }
 
 #content {
-    background: #eeedef url(../img/content.gif) repeat-x;
+    background: #fff repeat-x;
     padding:    50px;
     overflow:   hidden;
 }
