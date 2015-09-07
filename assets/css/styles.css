@@ -263,7 +263,6 @@ body#page div.background-white {
 /* Drop shadows / Page curls */
 .drop-shadow {
     position: relative;
-    width: 90%;
     margin-bottom: 30px;
 }
 
