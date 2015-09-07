@@ -7,12 +7,12 @@ html {
 
 body#home {
     margin:     0;
-    background: #4a4557 url(../img/bg.gif) repeat-x;
+    background: #4a4557;
 }
 
 body#page {
     margin:     0;
-    background: #4a4557 url(../img/bg2.gif) repeat-x;
+    background: #4a4557;
 }
 
 #wrapper {
@@ -129,7 +129,7 @@ ul#menu li a.active {
 }
 
 #content {
-    background: #fff repeat-x;
+    background: #eeedef repeat-x;
     padding:    50px;
     overflow:   hidden;
 }
@@ -222,13 +222,13 @@ img.gassafe {
 }
 
 img.velux {
-    background-position: 0px -339px;
+    background-position: 0 -339px;
     height:              33px;
     width:               100px;
 }
 
 img.velux-installer-partnership {
-    background-position: 0px -379px;
+    background-position: 0 -379px;
     height:              36px;
     width:               100px;
 }
@@ -236,4 +236,22 @@ img.velux-installer-partnership {
 /* Set the position of the ribbon for the header images on home page */
 #header-images .ribbon-wrapper {
     top: 140px;
+}
+
+/* Following rules are for the white background shown behind the header at the top of each page */
+body div.background-white {
+    background-color: #fff;
+    position:         absolute;
+    top:              0;
+    left:             0;
+    width:            100%;
+    z-index:          -1;
+}
+
+body#home div.background-white {
+    height:           390px;
+}
+
+body#page div.background-white {
+    height: 200px;
 }
