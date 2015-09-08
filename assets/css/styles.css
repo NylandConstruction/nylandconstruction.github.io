@@ -119,6 +119,7 @@ ul#menu li a.active {
 
 #header-images.home {
     height:350px;
+    margin-bottom: 30px;
 }
 
 #header-images img {
@@ -136,9 +137,9 @@ ul#menu li a.active {
 }
 
 #content {
-    background: #eeedef repeat-x;
+    background: #eeedef;
     padding:    50px;
-    overflow:   hidden;
+    float: left;
 }
 
 #left {
@@ -265,26 +266,31 @@ body#page div.background-white {
     position: relative;
     margin-bottom: 30px;
 }
-
-.drop-shadow:before,
-.drop-shadow:after {
-    content: "";
-    position: absolute;
+.drop-shadow:before, .drop-shadow:after {
     z-index: -1;
-    bottom: 12px;
+    position: absolute;
+    content: "";
+    bottom: 15px;
     left: 10px;
     width: 50%;
-    height: 20%;
-    box-shadow: 0 18px 8px rgba(0, 0, 0, 0.7);
-    -ms-transform: rotate(-3deg); /* IE 9 */
-    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+    top: 80%;
+    max-width:300px;
+    background: #000;
+    -webkit-box-shadow: 0 15px 10px #000;
+    -moz-box-shadow: 0 15px 10px #000;
+    box-shadow: 0 15px 10px #000;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
     transform: rotate(-3deg);
 }
-
-.drop-shadow:after{
+.drop-shadow:after {
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
     right: 10px;
     left: auto;
-    -ms-transform: rotate(3deg); /* IE 9 */
-    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
-    transform: rotate(3deg);
 }
