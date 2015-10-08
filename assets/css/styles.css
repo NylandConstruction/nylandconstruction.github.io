@@ -218,23 +218,22 @@ form {
     height:              149px;
 }
 
-.partner-logo.niceic {
+.partner-logo.labc {
     background-position: 0 -155px;
-    height:              60px;
+    height:              87px;
 }
 
+.partner-logo.niceic {
+    background-position: 0 -250px;
+    height:              55px;
+}
 .partner-logo.gassafe {
-    background-position: 0 -225px;
-    height:              110px;
-}
-
-.partner-logo.velux {
-    background-position: 0 -339px;
-    height:              33px;
+    background-position: 0 -305px;
+    height:              115px;
 }
 
 .partner-logo.velux-installer-partnership {
-    background-position: 0 -379px;
+    background-position: 0 -420px;
     height:              36px;
 }
 
