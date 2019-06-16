@@ -15,6 +15,17 @@ body#page {
     background: #4a4557;
 }
 
+body#home p:last-of-type {
+  margin: 0
+}
+
+.contact-details {
+  margin: 10px 0;
+  list-style: none;
+  font: normal 18px/24px Arial, sans-serif;
+  padding: 0;
+}
+
 #wrapper {
     width:   940px;
     margin:  0px auto;
@@ -48,7 +59,7 @@ h2 {
     text-align: justify;
 }
 
-p {
+p, ul {
     font:       normal 14px/20px Arial, sans-serif;
     color:      #666;
     margin:     0 0 20px 0;
